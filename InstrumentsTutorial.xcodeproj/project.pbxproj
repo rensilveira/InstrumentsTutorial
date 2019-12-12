@@ -13,7 +13,6 @@
 		429722D923A2AC62004C64BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429722D823A2AC62004C64BD /* Assets.xcassets */; };
 		429722DC23A2AC62004C64BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429722DA23A2AC62004C64BD /* LaunchScreen.storyboard */; };
 		429722E423A2B3CA004C64BD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429722E323A2B3CA004C64BD /* SecondViewController.swift */; };
-		429722E623A2B464004C64BD /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429722E523A2B464004C64BD /* Apple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		429722DB23A2AC62004C64BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		429722DD23A2AC62004C64BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		429722E323A2B3CA004C64BD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		429722E523A2B464004C64BD /* Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				429722CF23A2AC60004C64BD /* AppDelegate.swift */,
 				429722D323A2AC60004C64BD /* ViewController.swift */,
 				429722E323A2B3CA004C64BD /* SecondViewController.swift */,
-				429722E523A2B464004C64BD /* Apple.swift */,
 				429722D523A2AC60004C64BD /* Main.storyboard */,
 				429722D823A2AC62004C64BD /* Assets.xcassets */,
 				429722DA23A2AC62004C64BD /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				429722E623A2B464004C64BD /* Apple.swift in Sources */,
 				429722E423A2B3CA004C64BD /* SecondViewController.swift in Sources */,
 				429722D423A2AC60004C64BD /* ViewController.swift in Sources */,
 				429722D023A2AC60004C64BD /* AppDelegate.swift in Sources */,

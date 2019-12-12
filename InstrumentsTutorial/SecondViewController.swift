@@ -10,20 +10,17 @@ import UIKit
 
 // MARK: - Delegates
 
-protocol SecondViewControllerDelegate: AnyObject {
-    func didTapButton()
-}
-
 class SecondViewController: UIViewController {
 
     // MARK: - Properties
 
-    var delegate: SecondViewControllerDelegate?
+    var firstViewController: ViewController?
 
     // MARK: - IBActions
 
     @IBAction private func buttonAction(_ sender: UIButton) {
-        delegate?.didTapButton()
+        firstViewController?.secondViewController = self
+        firstViewController?.didTapButton()
     }
 
     // MARK: - Life cycle

@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - Properties
+
+    var secondViewController: SecondViewController?
+    
     // MARK: - IBOutlets
 
     @IBOutlet weak var buttonTappedStatusLabel: UILabel!
@@ -19,7 +23,7 @@ class ViewController: UIViewController {
     @IBAction private func openSecondScreen(_ sender: UIButton) {
         guard let secondViewController = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as? SecondViewController else { return }
 
-        secondViewController.delegate = self
+        secondViewController.firstViewController = self
         navigationController?.pushViewController(secondViewController, animated: true)
     }
 
@@ -27,13 +31,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
-}
 
-// MARK: - SecondViewControllerDelegate
-
-extension ViewController: SecondViewControllerDelegate {
+    // MARK: - Public methods
 
     func didTapButton() {
         buttonTappedStatusLabel.text = "Button tapped"
