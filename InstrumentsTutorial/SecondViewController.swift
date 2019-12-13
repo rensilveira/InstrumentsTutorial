@@ -8,8 +8,6 @@
 
 import UIKit
 
-// MARK: - Delegates
-
 class SecondViewController: UIViewController {
 
     // MARK: - Properties
@@ -19,7 +17,7 @@ class SecondViewController: UIViewController {
     // MARK: - IBActions
 
     @IBAction private func buttonAction(_ sender: UIButton) {
-        firstViewController?.secondViewController = self
+        firstViewController?.childViewController = self
         firstViewController?.didTapButton()
     }
 

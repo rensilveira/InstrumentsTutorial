@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     // MARK: - Properties
 
-    var secondViewController: SecondViewController?
+    weak var childViewController: SecondViewController?
     
     // MARK: - IBOutlets
 
